@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.routing.ace.ace08.MyRoundLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            app:roundradius="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/icon_drawable_test" />
+        </com.routing.ace.ace08.MyRoundLayout>
+
+        <com.routing.ace.ace08.MyRoundLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            app:roundradius="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/icon_drawable_test" />
+        </com.routing.ace.ace08.MyRoundLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.routing.ace.ace08.MyRoundLayout
+            android:id="@+id/round_mrl1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            app:roundradius="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/icon_drawable_test" />
+        </com.routing.ace.ace08.MyRoundLayout>
+
+        <com.routing.ace.ace08.MyRoundLayout
+            android:id="@+id/round_mrl2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            app:roundradius="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/icon_drawable_test" />
+        </com.routing.ace.ace08.MyRoundLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.routing.ace.ace08.MyRoundLayout
+            android:id="@+id/round_mrl3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            app:roundradius="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/icon_drawable_test" />
+        </com.routing.ace.ace08.MyRoundLayout>
+
+        <com.routing.ace.ace08.MyRoundLayout
+            android:id="@+id/round_mrl4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            app:roundradius="10dp">
+
+            <ImageView
+                android:id="@+id/round_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/icon_drawable_test" />
+        </com.routing.ace.ace08.MyRoundLayout>
+    </LinearLayout>
+
+    <com.routing.ace.ace08.MyRoundLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        app:roundradius="10dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/icon_drawable_test" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/colorAccent" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/icon_drawable_test" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/colorPrimaryDark" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/icon_drawable_test" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/colorPrimary" />
+            </LinearLayout>
+        </ScrollView>
+    </com.routing.ace.ace08.MyRoundLayout>
+</LinearLayout>
